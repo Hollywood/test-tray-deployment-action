@@ -1,0 +1,13 @@
+apiBaseUrl: https://api.tray.io
+sourceProjectId: efcd5c47-85ad-4114-a367-f76b42df6966
+destinationProjectId: 911d356a-be11-4f64-a0a4-ce27e6a8d552
+sourceVersion: latest
+scope: platform
+# To deploy embedded, uncomment the line below and change the above scope to platform-and-solutions
+# solutionId: 33333333-3333-3333-3333-333333333333
+failOnBreakingChanges: true
+authMappings:
+  - authExportId: salesforce-prod
+    authenticationId: 74ef4a14-95a3-41c4-bca2-6f5691a99298
+configOverrides:
+  ENVIRONMENT: QA
