@@ -9,5 +9,3 @@ failOnBreakingChanges: true
 authMappings:
   - authExportId: salesforce-1
     authenticationId: d5bdfa22-95cc-4cd4-84dc-ca15aa2a733a
-configOverrides:
-  ENVIRONMENT: QA
