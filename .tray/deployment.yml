@@ -6,8 +6,8 @@ scope: platform
 # To deploy embedded, uncomment the line below and change the above scope to platform-and-solutions
 # solutionId: 33333333-3333-3333-3333-333333333333
 failOnBreakingChanges: true
-# authMappings:
-#  - authExportId: salesforce-prod
-#    authenticationId: 74ef4a14-95a3-41c4-bca2-6f5691a99298
+authMappings:
+  - authExportId: salesforce-1
+    authenticationId: d5bdfa22-95cc-4cd4-84dc-ca15aa2a733a
 configOverrides:
   ENVIRONMENT: QA
