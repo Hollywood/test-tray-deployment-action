@@ -1,6 +1,6 @@
 apiBaseUrl: https://api.tray.io
 sourceProjectId: efcd5c47-85ad-4114-a367-f76b42df6966
-destinationProjectId: 911d356a-be11-4f64-a0a4-ce27e6a8d552
+destinationProjectId: 9718ee38-3eea-47a8-81c5-88d802706d08
 sourceVersion: latest
 scope: platform
 # To deploy embedded, uncomment the line below and change the above scope to platform-and-solutions
