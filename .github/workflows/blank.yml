@@ -1,0 +1,16 @@
+name: Deploy Tray project to staging
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: hollywood/tray-deployment-action@v1
+        with:
+          api-token: ${{ secrets.TRAY_API_TOKEN }}
+          config-path: .tray/deployment.yml
