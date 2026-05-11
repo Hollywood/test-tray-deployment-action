@@ -12,5 +12,6 @@ jobs:
       - uses: actions/checkout@v4
       - uses: Hollywood/tray-deployment-action@v1
         with:
-          api-token: ${{ secrets.TRAY_API_KEY }}
+          source-api-token: ${{ secrets.TRAY_SOURCE_WORKSPACE_TOKEN }}
+          destination-api-token: ${{ secrets.TRAY_DESTINATION_WORKSPACE_TOKEN }}
           config-path: .tray/deployment.yml
