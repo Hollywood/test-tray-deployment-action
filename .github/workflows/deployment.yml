@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: Hollywood/tray-deployment-action@latest
+      - uses: Hollywood/tray-deployment-action@v1
         with:
           api-token: ${{ secrets.TRAY_API_TOKEN }}
           config-path: .tray/deployment.yml
